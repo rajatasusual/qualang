@@ -1,0 +1,9 @@
+S = create Survey
+    set SurveyName:
+    set Language:
+end
+
+create Block
+    set ID:
+    set Type: 
+end

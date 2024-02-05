@@ -1,0 +1,216 @@
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_5hZEcD922AwjT4q",
+        "SurveyName": "Blank Survey",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_agD2qicGros8EGG",
+        "SurveyBrandID": "paneledgesandbox",
+        "DivisionID": null,
+        "SurveyLanguage": "EN",
+        "SurveyActiveResponseSet": "RS_6WsWfLicGWvVnDw",
+        "SurveyStatus": "Inactive",
+        "SurveyStartDate": "0000-00-00 00:00:00",
+        "SurveyExpirationDate": "0000-00-00 00:00:00",
+        "SurveyCreationDate": "2024-02-04 05:29:19",
+        "CreatorID": "UR_agD2qicGros8EGG",
+        "LastModified": "2024-02-04 05:29:27",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "0000-00-00 00:00:00",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": [
+                {
+                    "Type": "Default",
+                    "Description": "Default Question Block",
+                    "ID": "BL_2g9v7UklkjphK1U",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID1"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Trash",
+                    "Description": "Trash \/ Unused Questions",
+                    "ID": "BL_06NShA7NHE9QZhk"
+                }
+            ]
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Flow": [
+                    {
+                        "ID": "BL_2g9v7UklkjphK1U",
+                        "Type": "Block",
+                        "FlowID": "FL_2"
+                    }
+                ],
+                "Properties": {
+                    "Count": 2
+                },
+                "FlowID": "FL_1",
+                "Type": "Root"
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "PL",
+            "PrimaryAttribute": "Preview Link",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "PreviewType": "Brand",
+                "PreviewID": "467887d0-da95-4c6a-b2b4-75b26d890f1f"
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "false",
+                "SaveAndContinue": "true",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": "None",
+                "SurveyTermination": "DefaultMessage",
+                "Header": "",
+                "Footer": "",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+1 week",
+                "ValidationMessage": "",
+                "PreviousButton": "",
+                "NextButton": "",
+                "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                "SkinLibrary": "paneledgesandbox",
+                "SkinType": "templated",
+                "Skin": {
+                    "brandingId": "4997191981",
+                    "templateId": "*base",
+                    "overrides": null
+                },
+                "NewScoring": 1,
+                "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "PROJ",
+            "PrimaryAttribute": "CORE",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": "1.1.0",
+            "Payload": {
+                "ProjectCategory": "CORE",
+                "SchemaVersion": "1.1.0"
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "MobileCompatible": true,
+                "ID": "Survey Statistics"
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "1",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID1",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DataExportTag": "Q1",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText"
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": {
+                        "Display": "Click to write Choice 1"
+                    },
+                    "2": {
+                        "Display": "Click to write Choice 2"
+                    },
+                    "3": {
+                        "Display": "Click to write Choice 3"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID1"
+            }
+        },
+        {
+            "SurveyID": "SV_5hZEcD922AwjT4q",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_6WsWfLicGWvVnDw",
+            "SecondaryAttribute": "Default Response Set",
+            "TertiaryAttribute": null,
+            "Payload": null
+        }
+    ]
+}
