@@ -1,9 +1,9 @@
-S = create Survey
-    set SurveyName:
-    set Language:
+create Survey
+ set SurveyName surveyName
+ set BrandID paneledgesandbox
+ create Block
+  set ID TestID
+  set Type Standard
+ end
 end
 
-create Block
-    set ID:
-    set Type: 
-end

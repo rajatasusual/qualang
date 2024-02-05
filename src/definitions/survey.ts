@@ -24,6 +24,40 @@ export class Survey {
     Scoring: Scoring
     ProjectInfo: ProjectInfo
     BrandBaseURL: string
+    MappedValues: Set<string>
+
+    constructor() {
+        this.QuestionCount = '0'
+        this.SurveyOptions = new SurveyOptions()
+        this.SurveyID = ''
+        this.SurveyName = ''
+        this.SurveyStatus = ''
+        this.LastModified = ''
+        this.BrandID = ''
+        this.OwnerID = ''
+        this.DivisionID = ''
+        this.LastAccessed = ''
+        this.CreatorID = ''
+        this.LastActivated = ''
+        this.Questions = new Questions()
+        this.Blocks = new Blocks()
+        this.ResponseSets = new ResponseSets()
+        this.SurveyFlow = new SurveyFlow()
+        this.Scoring = new Scoring()
+        this.ProjectInfo = new ProjectInfo()
+        this.BrandBaseURL = ''
+
+        this.MappedValues = new Set<string>();
+    }
+
+    set(string: string, value: any) {
+        switch (string) {
+            case 'SurveyName':
+                this.SurveyName = value;
+                this.MappedValues.add('SurveyName');
+        }
+    }
+
 }
 
 export class SurveyOptions {
@@ -87,6 +121,17 @@ export class SurveyOptions {
     SurveyStartDate: Date
     SurveyExpirationDate: Date
     SurveyCreationDate: string
+
+    constructor() {
+        this.ActiveResponseSet = ''
+        this.SurveyStartDate = new Date()
+        this.SurveyExpirationDate = new Date()
+        this.SurveyCreationDate = ''
+        this.SurveyTermination = CONST.SurveyTermination.DefaultMessage
+        this.SurveyLanguage = CONST.SurveyLanguage.EN
+        this.CustomStyles = ''
+        this.SecureResponseFiles = false
+    }
 }
 
 

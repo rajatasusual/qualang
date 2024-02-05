@@ -1,6 +1,6 @@
 import * as CONST from "./block_enums"
 
-export interface Block {
+export class Block {
     BlockElements: BlockElement[][]
     Type: string
     SubType: string
@@ -9,6 +9,30 @@ export interface Block {
     LibraryID: string
     ReferencedBlockID: string
     Options: Options
+    MappedValues: Set<string>
+
+    constructor() {
+        this.Type = 'Standard'
+        this.SubType = ''
+        this.Options = new Options()
+        this.BlockElements = [[]]
+        this.ID = ''
+        this.Description = ''
+        this.LibraryID = ''
+        this.ReferencedBlockID = ''
+
+        this.MappedValues = new Set<string>();
+
+    }
+
+    set(string: string, value: any) {
+        switch (string) {
+            case 'ID':
+                this.ID = value;
+                this.MappedValues.add('ID');
+        }
+    }
+
 }
 
 export interface BlockElement {
@@ -29,7 +53,7 @@ export interface SkipLogic {
 
 
 
-export interface Options {
+export class Options {
     BlockLocking: boolean
     BlockPassword: string
     BlockVisiblity: CONST.BlockVisibility
